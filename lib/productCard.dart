@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:recipe_app/recipe_product.dart';
@@ -111,7 +113,7 @@ class _ProductCardState extends State<ProductCard> {
                           color: Colors.white,
                         ),
                       ),
-                    )
+                    ),
                   ],
                 ),
               ),
@@ -119,6 +121,12 @@ class _ProductCardState extends State<ProductCard> {
           },
         ),
       ),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.shopping_cart),
+          onPressed: (){
+            print("Add To Cart");
+          },
+        )
     );
   }
 }
