@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:recipe_app/productCard.dart';
+import 'package:recipe_app/recipe_product.dart';
 
-void main() {
+void main() async {
+
+  await Hive.initFlutter();
+  Hive.registerAdapter(RecipeAdapter());
+  await Hive.openBox<Recipe>('recipes');
   runApp(const MyApp());
 }
 
