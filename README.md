@@ -1,6 +1,13 @@
-# recipe_app
+# Recipe Items Purchase Application
 
-A new Flutter project.
+This is a flutter application that assumes an application for purchasing food items provided
+by an API.
+On launch, the application makes a request to the API and stores a specific number of items provided
+to a hive and displays it to the user.
+The user can then add items to cart and later on view the items stored in the cart.
+The application completes with a dummy check out that makes a post request to a dummy api
+:https://jsonplaceholder.typicode.com/todos/1
+After the check out, the app displays the response to the user i.e success or error.
 
 ## Getting Started
 
