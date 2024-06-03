@@ -9,15 +9,11 @@ The application completes with a dummy check out that makes a post request to a 
 :https://jsonplaceholder.typicode.com/todos/1
 After the check out, the app displays the response to the user i.e success or error.
 
-## Getting Started
+For this test, I used the spoonacular wine recommendation API to display various wines that
+a user can add to cart.
 
-This project is a starting point for a Flutter application.
+## Relevant App flow Screenshots
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_homepage](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/88f21425-68bd-44d6-bc74-837b00512ffc)- Home Page
+![Screenshot_addingToCart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/7fb47dd7-4d61-437f-ac36-6891923c9ed7)- Adding to Cart
+![Screenshot_cart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/3a3c9752-400d-424b-9f36-cece26886a83)- Cart with items
