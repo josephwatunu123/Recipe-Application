@@ -14,11 +14,11 @@ a user can add to cart.
 
 ## Relevant App flow Screenshots
 
-![Screenshot_homepage](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/0adeb53d-73f3-4f64-8f5d-f9ed047c4be1)
-#homepage
+![Screenshot_homepage](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/0adeb53d-73f3-4f64-8f5d-f9ed047c4be1)**homepage** ![Screenshot_addingToCart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/7fb47dd7-4d61-437f-ac36-6891923c9ed7) **Adding to Cart**
 
-![Screenshot_addingToCart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/7fb47dd7-4d61-437f-ac36-6891923c9ed7)
-#Adding to Cart
+![Screenshot_cart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/3a3c9752-400d-424b-9f36-cece26886a83)**Cart with items**![Screenshot_checkoutpage](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/d990649b-d9cb-4237-9c65-82a3ae76b968) **Checkout page**
 
-![Screenshot_cart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/3a3c9752-400d-424b-9f36-cece26886a83)
-#Cart with items
+![Screenshot_checkoutResponse](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/8daed65c-5740-410d-9064-7bb3f0e3ac59) **checkout Response**
+
+
+
