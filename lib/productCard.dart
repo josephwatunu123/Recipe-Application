@@ -2,9 +2,12 @@ import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
+import 'package:recipe_app/cartPage.dart';
 import 'package:recipe_app/recipe_product.dart';
 import 'package:recipe_app/recipeApi.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+
+import 'cart_items.dart';
 
 class ProductCard extends StatefulWidget {
   @override
@@ -26,6 +29,15 @@ class _ProductCardState extends State<ProductCard> {
     setState(() {
       _recipes = box.values.toList();
     });
+  }
+  Future<void> _addToCart(Recipe recipe) async {
+    var cartModel = CartModel();
+    await cartModel.addToCart(recipe);
+    Fluttertoast.showToast(
+      msg: "Product added to cart",
+      toastLength: Toast.LENGTH_SHORT,
+      fontSize: 16.0,
+    );
   }
 
   @override
@@ -93,6 +105,7 @@ class _ProductCardState extends State<ProductCard> {
                     SizedBox(height: 4),
                     TextButton(
                       onPressed: () {
+                        _addToCart(recipe);
                         print("Add to cart button pressed");
                         Fluttertoast.showToast(
                           msg: "Product added to cart",
@@ -124,7 +137,8 @@ class _ProductCardState extends State<ProductCard> {
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.shopping_cart),
           onPressed: (){
-            print("Add To Cart");
+            Navigator.push(context, MaterialPageRoute(builder: (context)=> CartPage()),
+            );
           },
         )
     );

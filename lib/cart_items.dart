@@ -1,39 +1,21 @@
-import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
+import 'recipe_product.dart';
 
-class Cart extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: MyCart(),
-      theme: ThemeData(primarySwatch: Colors.blue),
-    );
+class CartModel {
+  static const String boxName = 'cart';
+
+  Future<void> addToCart(Recipe recipe) async {
+    var box = await Hive.openBox<Recipe>(boxName);
+    await box.add(recipe);
   }
-}
 
-class MyCart extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Container(
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: TextButton(
-              onPressed: () {
-                print("Going to checkout");
-              },
-              style: TextButton.styleFrom(
-                backgroundColor: Colors.blue,
-              ),
-              child: Text('Go to Checkout',
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.w500
-              )),
-            ),
-          ),
-        ),
-      ),
-    );
+  Future<List<Recipe>> getCartItems() async {
+    var box = await Hive.openBox<Recipe>(boxName);
+    return box.values.toList();
+  }
+
+  Future<void> clearCart() async {
+    var box = await Hive.openBox<Recipe>(boxName);
+    await box.clear();
   }
 }
