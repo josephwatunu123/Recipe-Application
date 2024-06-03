@@ -46,6 +46,9 @@ dependencies:
     path: C:\Users\justi\Downloads\dart-client
   http: ^0.13.6
   webview_flutter: ^4.8.0
+  mobx: ^2.3.3+2
+  flutter_mobx: ^2.0.1
+  provider: ^6.0.0
 
 dev_dependencies:
   flutter_test:
@@ -59,6 +62,7 @@ dev_dependencies:
   flutter_lints: ^3.0.0
   hive_generator: ^1.1.0
   build_runner: ^2.0.0
+  mobx_codegen: ^2.0.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
