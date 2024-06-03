@@ -14,6 +14,11 @@ a user can add to cart.
 
 ## Relevant App flow Screenshots
 
-![Screenshot_homepage](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/88f21425-68bd-44d6-bc74-837b00512ffc)- Home Page
-![Screenshot_addingToCart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/7fb47dd7-4d61-437f-ac36-6891923c9ed7)- Adding to Cart
-![Screenshot_cart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/3a3c9752-400d-424b-9f36-cece26886a83)- Cart with items
+![Screenshot_homepage](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/0adeb53d-73f3-4f64-8f5d-f9ed047c4be1)
+#homepage
+
+![Screenshot_addingToCart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/7fb47dd7-4d61-437f-ac36-6891923c9ed7)
+#Adding to Cart
+
+![Screenshot_cart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/3a3c9752-400d-424b-9f36-cece26886a83)
+#Cart with items
