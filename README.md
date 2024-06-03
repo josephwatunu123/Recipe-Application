@@ -1,16 +1,24 @@
-# recipe_app
+# Recipe Items Purchase Application
 
-A new Flutter project.
+This is a flutter application that assumes an application for purchasing food items provided
+by an API.
+On launch, the application makes a request to the API and stores a specific number of items provided
+to a hive and displays it to the user.
+The user can then add items to cart and later on view the items stored in the cart.
+The application completes with a dummy check out that makes a post request to a dummy api
+:https://jsonplaceholder.typicode.com/todos/1
+After the check out, the app displays the response to the user i.e success or error.
 
-## Getting Started
+For this test, I used the spoonacular wine recommendation API to display various wines that
+a user can add to cart.
 
-This project is a starting point for a Flutter application.
+## Relevant App flow Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_homepage](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/0adeb53d-73f3-4f64-8f5d-f9ed047c4be1)**homepage** ![Screenshot_addingToCart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/7fb47dd7-4d61-437f-ac36-6891923c9ed7) **Adding to Cart**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot_cart](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/3a3c9752-400d-424b-9f36-cece26886a83)**Cart with items**![Screenshot_checkoutpage](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/d990649b-d9cb-4237-9c65-82a3ae76b968) **Checkout page**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_checkoutResponse](https://github.com/josephwatunu123/Recipe-Application/assets/81553233/8daed65c-5740-410d-9064-7bb3f0e3ac59) **checkout Response**
+
+
+
